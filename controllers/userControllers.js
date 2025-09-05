@@ -3,7 +3,7 @@ const users = [];
 module.exports={
     createUser: (req,res) =>{
         const {username, email, password} = req.body;
-        console.log("Request body:", req.body);
+       
 
         
         if(!username || !email || !password){
